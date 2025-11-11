@@ -43,7 +43,7 @@ export default function Post() {
             <img
               src={appwriteService.getFileView(post.featuredImage)}
               alt={post.title}
-              className="w-full max-h-[90vh] object-contain"
+              className="w-full max-h-[90vh]"
             />
 
             {/* Author Controls */}
